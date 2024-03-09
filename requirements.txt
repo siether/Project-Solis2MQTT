@@ -1,4 +1,0 @@
-minimalmodbus
-pyyaml
-paho-mqtt
-python-daemon
