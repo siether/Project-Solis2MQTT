@@ -1,4 +1,3 @@
 #!/bin/sh
-cd /home/keith/solis2mqtt
-echo "start" >> output.txt
+cd ~/solis2mqtt
 python3 solis2mqtt.py
