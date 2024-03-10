@@ -1,4 +1,4 @@
-<img src="https://github.com/siether/solis2mqtt/blob/main/img/IMG20240309184821.jpg" width="448" height="1000">
+<img src="https://github.com/siether/Project-Solis2MQTT/blob/main/img/IMG20240309184821.jpg" width="448" height="1000">
 
 
 ## A MQTT bridge for Solis solar inverters. ##
