@@ -26,5 +26,6 @@ pip3 install python-daemon
 #cp /opt/solis2mqtt/provisioning/etc/systemd/system/solis2mqtt.service /etc/systemd/system/
 #systemctl enable solis2mqtt
 
-
-
+#60 seconds after boot start boot with a crontab
+sudo chmod +x ~/solis2mqtt/start.sh
+crontab -l | { cat; echo "@reboot sleep 60 && ~/solis2mqtt/start.sh"; } | crontab -
